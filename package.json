@@ -1,0 +1,33 @@
+{
+  "name": "message-board",
+  "version": "1.0.0",
+  "description": "Create a simple message board app in react that manages state from parent to child and back to parent component using props and hooks.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MobolanleAdebesin/message-board.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MobolanleAdebesin/message-board/issues"
+  },
+  "homepage": "https://github.com/MobolanleAdebesin/message-board#readme",
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.4",
+    "babel-loader": "^8.0.6",
+    "babel-preset-react-app": "^9.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.3"
+  }
+}
